@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ANGKRING PAKDHE RESTU</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div id="runningtext">
+                <marquee behavior="scroll" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();" direction="left" style="font-weight: bold;">
+                    Selamat Datang di Angkringan Online Pakdhe Restu
+                </marquee>
+            </div>
+            <img src="assets/header.jpg" alt="angkringan" width="100%" height="300px" style="margin: 0px;">
+            <nav>
+                <ul>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Pesanan">Pesanan Anda</a></li>
+                    <li><a href="#Author">Tentang Kami</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <article id="Menu" class="daftar card">
+                    <h2>NASI KUCING</h2>
+                    <img src="assets/nasi.jpg" class="featured-image" alt="nasikucing">
+                    <p>Nasi kucing adalah makanan yang berasal dari Yogyakarta, Semarang, dan Surakarta. Porsi nasi ini diisi dengan sambal, ikan, dan tempe, lalu dibungkus daun pisang. Harga per satuan nasi kucing murah cukup dengan <strong>Rp. 1.000,- /bungkus</strong>. Dibuat dengan resep rumahan yang pasti enak dan membuat Anda cukup kenyang.</p>
+                    <button id="button">Pesan!</button>
+                </article>
+                <article id="Menu" class="daftar card">
+                    <h2>SATE-SATEAN</h2>
+                    <img src="assets/sate.jpg" class="featured-image" alt="sate">
+                    <p>Banyak varian sate yang bisa Anda beli diantaranya sate ayam, sate usus, sate telur puyuh. di angkringan yang super lengkap, tentu varian sate jadi banyak, ada sate scallop, sate sosis, sate udang, sate hati, sate gajih dan lainnya. Harga mulai <strong>Rp. 2000,- /tusuk</strong> siap menemani santapan lezat Anda. </p>
+                    <button id="button2">Pesan!</button>
+                </article>
+                <article id="Menu" class="daftar card">
+                    <h2>MINUM-MINUMAN</h2>
+                    <img src="assets/jahesusu.jpg" class="featured-image" alt="jahe" style="height: 150px;">
+                    <p>Angkringan adalah tempat kehangantan, belum lengkap jika Anda belum mencicipi varian minuman hangat kami. Terdapat banyak varian minuman diantaranya teh, kopi, susu, jahe susu, kopi jahe dan lain-lain. Harga mulai <strong>Rp. 3000,- hingga Rp. 5000,-</strong> siap memberikan rasa kehangatan.</p>
+                    <button id="button3">Pesan!</button>
+                </article>     
+                <article id="Pesanan" class="daftar card">
+                    <h2>Jumlah Pesanan Anda!</h2>
+                    <p><strong>#</strong> Anda pesan Nasi Kucing sejumlah= <span id="count"></span> bungkus</p>
+                    <p><strong>#</strong> Anda pesan Sate sejumlah= <span id="count2"></span> tusuk</p>
+                    <p><strong>#</strong> Anda pesan Minuman sejumlah= <span id="count3"></span> gelas</p>
+                    <p>Pesanan sedang di proses, silahkan ditunggu :)</p>
+                </article>                           
+            </div>
+            <aside>
+                <article class="card2">
+                    <header>
+                        <img src="assets/GoFood.gif" alt="pesan" width="250px" style="margin: auto">
+                        <h3 style="text-align: center;">Angkringan Pakdhe Restu</h3>
+                        <p style="text-align: center;">"Nikmat, Lezat dan Bikin Kenyang"</p>
+                    </header>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Kota</th>
+                                <td>Klaten</td>
+                            </tr>
+                            <tr>
+                                <th>Alamat</th>
+                                <td>Klaten Utara</td>
+                            </tr>
+                            <tr>
+                                <th>Buka Jam</th>
+                                <td>16:00 - 24:00 </td>
+                            </tr>
+                            <tr>
+                                <th>Nomor HP</th>
+                                <td>08973840908</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+                <article id="Author" class="card3">
+                    <header>
+                        <h2>Author</h2>
+                        <img src="assets/foto.jpg" alt="foto" width="250px" style="margin-right: 10px;"> 
+                    </header>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Ari Sukarno</td>
+                        </tr>
+                        <tr>
+                            <th>Asal</th>
+                            <td>Klaten</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Trucuk, Klaten</td>
+                        </tr>
+                        <tr>
+                            <th>Nomor HP</th>
+                            <td>089691988377</td>
+                        </tr>
+                    </table>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <p>Angkringan Kota Klaten &#169; 2021 | Angkringan Pakdhe Restu</p>
+        </footer>
+    <script src="assets/script.js"></script>
+    </body>
+</html>
